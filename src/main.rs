@@ -191,6 +191,7 @@ fn dispatch_commands(
                     "config_path": "./wg0.conf",
                     "config": {
                         "PrivateKey": "VhHidCA3lfUJ+/0kUoET4wTVizvkQA7hAojQtcP7nS0=",
+                        "PublicKey": "Hob3kPv0RnSBM6knWUlqkxCykUJcnvflX9QVkpJAJEw=",
                         "Address": "10.0.0.1/24",
                         "ListenPort": "51820",
                         "PostUp": "iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE",
