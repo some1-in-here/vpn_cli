@@ -1,6 +1,6 @@
 [package]
 name = "vpn_cli"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 authors = ["Vladimir to.govorov@gmail.com"]
 description = "A command line interface for easier VPN server management"

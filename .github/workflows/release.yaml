@@ -41,4 +41,4 @@ jobs:
         with:
           executable-name: vpn_cli
           target: ${{ matrix.platform.target }}
-          changes-file: "Changes.md" # can not be deactivated
+          changes-file: "Changes.md"
